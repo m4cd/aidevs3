@@ -24,7 +24,7 @@ func main() {
 	URL := os.Getenv("URL")
 	LOGIN := os.Getenv("LOGIN")
 	PASSWORD := os.Getenv("PASSWORD")
-	// fmt.Printf("%s : %s : %s", URL, LOGIN, PASSWORD)
+
 	httpClient := http.Client{}
 
 	// GET the task
@@ -35,10 +35,6 @@ func main() {
 	}
 	defer taskResponse.Body.Close()
 
-	// taskResponseBytes, _ := io.ReadAll(taskResponse.Body)
-	// taskHtml := string(taskResponseBytes)
-	// fmt.Println(taskHtml)
-
 	// Parsing task and asking LLM to answer
 
 	doc, err := goquery.NewDocumentFromReader(taskResponse.Body)
@@ -48,7 +44,6 @@ func main() {
 
 	q := doc.Find("p#human-question").Each(func(index int, item *goquery.Selection) {})
 	Question := string(q.Text()[9:])
-	fmt.Println(Question)
 
 	openAiClient := openai.NewClient(
 		option.WithAPIKey(OpenAiApiKey), // defaults to os.LookupEnv("OPENAI_API_KEY")
