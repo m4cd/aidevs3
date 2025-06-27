@@ -21,7 +21,7 @@ func main() {
 		fmt.Println("Error while loading .env file.")
 	}
 	OpenAiApiKey := os.Getenv("OPENAI_API_KEY")
-	URL := os.Getenv("URL")
+	URL := os.Getenv("URL_XYZ")
 	LOGIN := os.Getenv("LOGIN")
 	PASSWORD := os.Getenv("PASSWORD")
 
