@@ -10,4 +10,5 @@ S01E05 - cenzura
 
 ### S02
 S02E01 - whisper\
-S02E02 - maps
+S02E02 - maps\
+S02E03 - robotid
