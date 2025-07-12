@@ -13,7 +13,8 @@ S02E01 - whisper\
 S02E02 - maps\
 S02E03 - robotid\
 S02E04 - formats\
-S02E05 - arxiv
+S02E05 - arxiv\
 
 ### S03
+S03E01 - documents\
 

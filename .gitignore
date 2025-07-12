@@ -7,3 +7,4 @@ robotid/robotid.json
 formats/pliki/
 arxiv/*/*
 arxiv/system_prompt.txt
+documents/*/*
