@@ -17,4 +17,4 @@ S02E05 - arxiv\
 
 ### S03
 S03E01 - documents\
-
+S03E02 - vectors\
