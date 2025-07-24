@@ -18,4 +18,6 @@ S02E05 - arxiv
 ### S03
 S03E01 - documents\
 S03E02 - vectors\
-S03E03 - database
+S03E03 - database\
+S03E04 - loop\
+S03E04 - connections

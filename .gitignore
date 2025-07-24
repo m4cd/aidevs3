@@ -9,3 +9,5 @@ arxiv/*/*
 arxiv/system_prompt.txt
 documents/*/*
 vectors/*/*
+loop/barbara.txt
+connections/*.json
