@@ -11,3 +11,4 @@ documents/*/*
 vectors/*/*
 loop/barbara.txt
 connections/*.json
+photos/cache/*
