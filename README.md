@@ -23,6 +23,7 @@ S03E04 - loop\
 S03E05 - connections
 
 ### S04
-S04E01 - photos
+S04E01 - photos\
+S04E02 - research
 
 ### S05
