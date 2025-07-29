@@ -13,3 +13,4 @@ loop/barbara.txt
 connections/*.json
 photos/cache/*
 research/lab_data/*
+softo/*.json
