@@ -15,3 +15,7 @@ photos/cache/*
 research/lab_data/*
 softo/*.json
 webhook/*.txt
+notes/*.pdf
+notes/*.jpg
+notes/*.png
+notes/*.txt
